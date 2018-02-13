@@ -1,0 +1,37 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>processing</artifactId>
+        <groupId>com.tangqiang</groupId>
+        <version>3.3.6</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>processing-video</artifactId>
+    <packaging>jar</packaging>
+
+    <name>processing-video</name>
+    <url>http://maven.apache.org</url>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.tangqiang</groupId>
+            <artifactId>processing-core</artifactId>
+            <version>3.3.6</version>
+        </dependency>
+        <dependency>
+            <groupId>com.sun.jna</groupId>
+            <artifactId>jna</artifactId>
+            <version>4.2.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.freedesktop.gstreamer</groupId>
+            <artifactId>gst1-java-core</artifactId>
+            <version>0.9.2</version>
+        </dependency>
+    </dependencies>
+</project>
