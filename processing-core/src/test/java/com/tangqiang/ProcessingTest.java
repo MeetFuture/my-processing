@@ -1,4 +1,4 @@
-package com;
+package com.tangqiang;
 
 import processing.core.PApplet;
 
